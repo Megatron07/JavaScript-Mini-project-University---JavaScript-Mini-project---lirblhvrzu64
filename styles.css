@@ -1,1 +1,53 @@
 
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/tic-tac-toe.jpg");
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+ul{
+    margin-top: 100px;
+    padding: 0px;
+    display: flex;
+    width: 65vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+li{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border: 1px solid black;
+    font-size: 6vw;
+}
+
+h1{
+    margin: 0px;
+    text-align: center;
+    width: 95vw;
+    color: white;
+    font-size: 8vw;
+}
